@@ -1,0 +1,8 @@
+name: I Brew My Own Coffee
+markdown: redcarpet
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+include: ['_pages']
+url: http://ibrewmyowncoffee.com
+permalink: /:categories/:title
+excerpt_separator: <!--more-->

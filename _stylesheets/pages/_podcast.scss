@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Podcast
+   ========================================================================== */
+
+
+.Bordered {
+	display: block;
+	padding: .25rem;
+	border: 3px solid #111;
+}
+
+.Rating {
+	margin-bottom: .25rem;
+}
+
+.small-quote {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: #f8f8f8;
+	color: #111;
+
+	footer {
+		position: relative;
+		margin-top: $half-spacing-unit / 2;
+		margin-bottom: 1rem;
+		padding-top: $half-spacing-unit / 2;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 25px;
+			height: 3px;
+			background: #111;
+		}
+	}
+}

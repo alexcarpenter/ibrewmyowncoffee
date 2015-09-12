@@ -1,0 +1,34 @@
+- name: Passenger Coffee Roasters
+  address: 315 East Marion St Lancaster, PA 17602
+  website: http://passengercoffee.com/ 
+  facebook: passengercoffee 
+  twitter: passengercoffee 
+  instagram: passengercoffee 
+    
+- name: Alabaster Coffee
+  address: 410 Pine St, Williamsport, PA 17701
+  website: http://alabastercoffee.com/
+  facebook: alabastercoffee 
+  twitter: AlabasterCoffee 
+  instagram: alabastercoffee
+  
+- name: Little Amps Coffee Roasters
+  address: 1836 Green Street Harrisburg, PA 17102
+  website: http://littleampscoffee.com/
+  twitter: littleamps 
+  instagram: littleampscoffee 
+  
+- name: Square One Coffee
+  address: 249 South 13th St Philadelphia PA
+  website: http://squareonecoffee.com/
+
+- name: Elixr Coffee Roasters
+  address: 207 S Sydenham St, Philadelphia, PA 19102
+  website: http://www.elixrcoffee.com/
+  twitter: ElixrCoffee
+
+- name: Commonplace Coffee Roasters
+  address: 1176 Grant St. Indiana, PA 15701
+  website: http://thecommonplacecoffeehouse.com/
+  twitter: commonplacevolu
+  instagram: commonplaceipa

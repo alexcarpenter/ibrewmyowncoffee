@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+
+
+// Clearfix
+@mixin clearfix {
+    &::after {
+        display: table;
+        clear: both;
+        content: '';
+    }
+}
+
+
+// Image replacement
+@mixin image-replace {
+    text-indent: 200%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+// Visually hidden, but still audible
+@mixin hidden {
+    position: absolute;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}

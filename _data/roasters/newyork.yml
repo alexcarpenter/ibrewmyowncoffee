@@ -1,0 +1,46 @@
+- name: Gimme Coffee
+  address: 506 West State Street Ithaca, New York 14850
+  website: http://gimmecoffee.com/
+  facebook: gimmecoffee 
+  twitter: gimmecoffee 
+  instagram: gimmecoffee 
+  
+- name: St. Lawrence Valley Roasters
+  address: 11 Maple St. Potsdam, NY 13676
+  website: http://jernabi.com/ 
+  facebook: St-Lawrence-Valley-Roasters/165472826820476
+  twitter: jernabi_coffee 
+  
+- name: Joe Bean Coffee Roasters
+  address: 1344 University Avenue Rochester NY 14607
+  website: http://www.ibrewmyowncoffee.com/www.joebeanroasters.com/
+  facebook: JoeBeanRoasters 
+  twitter: joebeanroasters 
+  
+- name: Wired Coffee Roasters
+  address: 1104 Ellsworth Blvd. Malta, NY
+  website: http://wiredcoffeeandbagel.com/
+  facebook: wiredcoffeebagel 
+  intragram: wiredcoffeeandbagel 
+  
+- name: Gentle Brew Coffee
+  address: 151 E Park Ave Long Beach, NY 11561
+  website: http://gentlebrewcoffee.com/
+  
+- name: Forty Weight Coffee Roasters
+  address: Ithaca, New York 14850
+  website: http://fortyweightcoffee.com/
+  facebook: pages/Forty-Weight-Coffee-Roasters/154701337887904
+  twitter: 40WeightCoffee 
+  instagram: 40weightmateo 
+  
+- name: Cafe Grumpy
+  address: 193 Meserole Ave | Brooklyn, NY 11222
+  website: http://cafegrumpy.com/
+  twitter: cafegrumpy 
+  instagram: cafegrumpy 
+  
+- name: Porto Rico Importing Co.
+  address: 201 Bleecker ST. New York, N.Y. 10012
+  website: http://portorico.com/
+

@@ -1,0 +1,46 @@
+- name: Boxcar Coffee Roasters
+  address: 1825 B Pearl St. Boulder, CO 80302
+  website: http://boxcarcoffeeroasters.com/
+  facebook: boxcarcoffee
+  twitter: boxcarcoffee
+  instagram: boxcarcoffeeroasters
+  
+- name: Corvus Coffee Roasters
+  address: Corvus Coffee Roasters
+  website: http://corvuscoffee.com/
+  twitter: corvuscoffee
+  facebook: CorvusCoffeeRoasters
+  instagram: corvuscoffee
+  
+- name: High Rise Coffee Roasters
+  address: 2421 West Cucharras Street Colorado Springs, CO 80904
+  website: http://springscoffee.com/
+  facebook: HighRiseCoffee
+  twitter: highrisecoffee
+  
+- name: Novo Coffee
+  address: Novo Coffee
+  website: http://novocoffee.com/
+  facebook: novocoffee
+  twitter: novocoffee
+  
+- name: Commonwealth Coffee
+  address: PO Box 181141 Denver, Colorado
+  website: http://commonwealthcoffee.co/
+  facebook: commonwealthcoffeedenver
+  twitter: CommonwealthDEN
+  instagram: commonwealthcoffee
+
+- name: Huckleberry Roasters
+  address: 4301 Pecos St. Denver, CO 80211
+  website: http://huckleberryroasters.com/
+  twitter: HuckleberryCO
+  facebook: HuckleberryRoasters
+  instagram: HuckleberryRoasters
+  
+- name: Proper Grounds Coffee
+  address: 990 South Public Road B-3, Lafayette, CO 80026
+  website: http://propergroundscoffee.com/
+  facebook: ProperGroundsCoffeeRoasters
+  twitter: ProperGrounds
+  instagram: propergroundscoffeeroasters

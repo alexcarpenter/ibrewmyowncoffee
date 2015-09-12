@@ -1,0 +1,121 @@
+---
+layout: default
+title: Home
+---
+
+<header class="Header Header--home">
+	<div class="Header__wrap">
+		<h1>The podcast for people who<br>care about coffee.</h1>
+		<p>Subscribe via <a href="https://itunes.apple.com/us/podcast/i-brew-my-own-coffee-podcast/id936711968?mt=2">iTunes</a>, <a href="http://www.stitcher.com/podcast/i-brew-my-own-coffee-podcast">Stitcher</a> or <a href="http://simplecast.fm/podcasts/293/rss">RSS</a>.</p>
+	</div>
+</header>
+
+<section class="Section Section--featured">
+	<div class="Section__wrap">
+		<div class="Grid Grid--withGutter">
+			<div class="Grid-cell u-size1of2 t-size1of1">
+				<h2><a href="https://itunes.apple.com/us/podcast/i-brew-my-own-coffee-podcast/id936711968?mt=2">iTunes Reviews</a></h2>
+			</div>
+
+			<div class="Grid-cell u-size1of2 t-size1of1">
+				<div id="owl-demo" class="owl-carousel owl-theme">
+ 
+				  <div class="item">
+				  	<p>&#x2605; &#x2605; &#x2605; &#x2605; &#x2605;</p>
+				  	<p>“As a new coffee drinker this podcast has become a valuable resource. I learn something new in just about every episode and it has opened up a new window into the coffee tasting world.”</p>
+				  	<p class="u-sans-serif"><strong>by Sirius Subscriber</strong></p>
+				  </div>
+
+				  <div class="item">
+				  	<p>&#x2605; &#x2605; &#x2605; &#x2605; &#x2605;</p>
+				  	<p>“A great resource for those interested in specialty coffee, and in a medium that is approachable, enjoyable and engaging. Brew a cup and tune in.”</p>
+				  	<p class="u-sans-serif"><strong>by bbeyk</strong></p>
+				  </div>
+
+				  <div class="item">
+				  	<p>&#x2605; &#x2605; &#x2605; &#x2605;</p>
+				  	<p>“I have been listening to dozens of podcasts the last few years. This is the first show about coffee that I honestly enjoy.”</p>
+				  	<p class="u-sans-serif"><strong>by DaringMacalope</strong></p>
+				  </div>	
+				 
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="Section Section--first">
+	<div class="Section__wrap">
+		<ul class="List">
+			{% for episode in site.categories.podcast limit:3 %}
+			<li>
+				<div class="Grid Grid--withGutter">
+					<div class="Grid-cell u-size1of2 t-size1of1">
+						<h2><a href="{{ episode.url }}">{{ episode.title }}</a></h2>
+					</div>
+
+					<div class="Grid-cell u-size1of2 t-size1of1">
+						<p>{{ episode.excerpt }}</p>
+						<p><small>Posted on {{ episode.date | date: "%D" }}</small></p>
+					</div>
+				</div>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+
+<section class="Section Section--newsletter">
+	<div class="Section__wrap">
+		<h2>Get episodes delivered directly to your inbox each week.</h2>
+
+		<div id="mc_embed_signup">
+			<form action="//ibrewmyowncoffee.us9.list-manage.com/subscribe/post?u=9db1c4404aa4c3d43bf1385d1&amp;id=fc03f1c447" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<div class="mc-field-group">
+					<!-- <label for="mce-EMAIL">Email Address </label> -->
+					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address..."><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+
+<section class="Section Section--second">
+	<div class="Section__wrap">
+		<ul class="List">
+			{% for episode in site.categories.podcast offset:3 limit:3 %}
+			<li>
+				<div class="Grid Grid--withGutter">
+					<div class="Grid-cell u-size1of2 t-size1of1">
+						<h2><a href="{{ episode.url }}">{{ episode.title }}</a></h2>
+					</div>
+
+					<div class="Grid-cell u-size1of2 t-size1of1">
+						<p>{{ episode.excerpt }}</p>
+						<p><small>Posted on {{ episode.date | date: "%D" }}</small></p>
+					</div>
+				</div>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+
+<section class="Section Section--support">
+	<div class="Section__wrap">
+		<h2>Support I Brew My Own Coffee</h2>
+
+		<div class="Grid Grid--withGutter">
+			<div class="Grid-cell u-size1of2 t-size1of1">
+				<h3><a href="https://www.patreon.com/ibrewmyowncoffee">Patreon Supporter</a></h3>
+				<p>Have you enjoyed the podcast? Help us keep it ad free and listener supported on Patreon. Sign up to help with any amount you can. Even get entered to win monthly giveaways.</p>
+			</div>
+
+			<div class="Grid-cell u-size1of2 t-size1of1">
+				<h3><a href="https://itunes.apple.com/us/podcast/i-brew-my-own-coffee-podcast/id936711968?mt=2">iTunes Review</a></h3>
+				<p>Another great way to help support I Brew My Own Coffee is to leave a review and rating for the podcast on iTunes. It helps us grow the show and share our passion with coffee with others.</p>
+			</div>
+		</div>
+	</div>
+</section>
+

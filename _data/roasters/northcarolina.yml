@@ -1,0 +1,175 @@
+- name: Counter Culture Coffee
+  address: 4911 South Alston Avenue Durham, NC 27713
+  website: http://counterculturecoffee.com/
+  instagram: http://instagram.com/counterculturecoffee
+
+- name: Bald Guy Brew
+  address: 3657 Hwy 194 South, Sugar Grove, NC 28679
+  website: http://baldguybrew.com/
+  twitter: baldguybrew
+  facebook: BGBCoffee
+
+- name: Larry's Beans
+  website: https://larrysbeans.com
+  address: 1507 Gavin St. Raleigh, NC 27608
+  facebook: larrysbeans
+  
+- name: Raleigh Coffee Company
+  website: http://raleighcoffeecompany.com/
+  address: 5045 Falls of Neuse Road Raleigh, NC 27609
+  facebook: RaleighCoffeeCompany
+  twitter: RaleighCoffeeCo
+
+  
+- name: Joe Van Gogh
+  website: https://joevangogh.com/
+  address: 505 MEADOWLAND DRIVE UNIT 104 HILLSBOROUGH, NC 27278
+  instagram: joevangogh
+  facebook: pages/Joe-Van-Gogh/45397353405
+  twitter: joevangogh
+  
+- name: Muddy Dog Coffee
+  website: https://muddydogcoffee.com/
+  address: 3000-110 BEARCAT WAY MORRISVILLE, NC 27560
+  facebook: MuddyDogCoffee
+  twitter: MuddyDogCoffee
+  
+- name: Stockton Graham
+  website: http://stocktongraham.com
+  address: 4320 Delta Lake Drive Suite 199, Raleigh NC 27612
+  facebook: StocktonGraham
+  twitter: stocktongraham
+  
+- name: Oak City Coffee
+  website: https://oakcityroasters.com/
+  address: 615 W Hargett St Raleigh, North Carolina
+  facebook: OakCityRoasters/info?tab=overview
+  twitter: ocroasters
+  instagram: ocroasters
+  
+- name: Torch Coffee Roasters
+  website: http://torchcoffee.com/
+  address: Raleigh, NC
+  twitter: TorchCoffee
+  facebook: TorchCoffee
+  instagram: torchcoffee
+  
+# - name: Red Rooster Coffee
+#   website: http://redroostercoffeecompany.com/
+#   address: Raleigh, NC
+  
+# - name: Beanpeace Roastery
+#   website: http://beanpeaceroastery.com/
+#   address: Durham
+  
+# - name: Carrboro Coffee
+#   website: http://carrborocoffee.com/
+#   address: Carrboro
+  
+# - name: Bean Therapy
+#   website: http://beantherapy.com/
+#   address: Wake Forest
+  
+# - name: Crema Coffee Bakery
+#   website: http://cremacoffeebakery.com/
+#   address: 1983 High House Rd, Cary, NC 27519
+  
+- name: Reposo Coffee Roasters
+  website: http://reposocoffee.com/
+  address: Holly Springs
+  facebook: reposocoffee
+  twitter: reposocoffee
+  
+# - name: Benelux
+#   website: http://beneluxcoffee.com
+#   address: Raleigh
+  
+# - name: Asheville Coffee Roasters
+#   website: http://ashevillecoffeeroasters.com/
+#   address: Asheville
+  
+# - name: Bald Guy Brew
+#   website: http://baldguybrew.com/
+#   address: Boone
+  
+# - name: Mountain City Coffee Roasters
+#   website: http://mountaincity.com/
+#   address: Asheville
+  
+# - name: Biltmore Coffee Traders
+#   website: http://biltmorecoffeetraders.com/
+#   address: Asheville
+  
+# - name: Beanwerks
+#   website: http://beanwerkscoffeecompany.com
+#   address: Asheville
+  
+# - name: Dynamite Roasting Co.
+#   website: http://dynamiteroasting.com/
+#   address: Black Mountain
+  
+- name: Mountain Air Roasting
+  website: http://mtnairroasting.com/
+  address: Asheville, NC
+  facebook: Mtn.AirRoasting
+  twitter: MtnAirRoasting
+  instagram: mtnairroasting
+  
+# - name: Notorious Coffee Roasting Company
+#   website: http://notoriouscoffee.com/
+#   address: Marshall
+  
+- name: Broad River Roasters
+  website: http://broadriverroasters.com/
+  address: Boiling Springs
+  
+# - name: The Local Lion
+#   website: http://local-lion.com/
+#   address: Boone
+  
+- name: Krankies
+  website: http://krankiescoffee.com/
+  address: 211 East Third Street WSNC 27101 
+  facebook: pages/Krankies-Coffee/179968447995
+  twitter: krankiescoffee
+  instagram: krankiescoffee
+  
+# - name: Beans Boro
+#   website: http://beansboro.com/
+#   address: Greensboro
+  
+# - name: Carolina Coffee Roasting
+#   website: http://carolinacoffeeroasting.net
+#   address: Greensboro
+  
+# - name: Magnolia Coffee Company
+#   website: http://magnoliacoffeeco.com/
+#   address: Charlotte
+  
+# - name: Smelly Cat Coffeehouse
+#   website: http://smellycatcoffee.com/
+#   address: Charlotte
+  
+# - name: Enderly Coffee Co.
+#   website: http://enderlycoffee.com/
+#   address: Charlotte
+  
+# - name: Boquete Mountain Coffee
+#   website: http://bo-co.info/
+#   address: Charlotte
+  
+# - name: Dillworth (stockton graham)
+#   website: http://dilworthcoffee.com
+#   address: Charlotte
+  
+# - name: Front Porch Cafe
+#   website: http://frontporchcafeonline.com/
+#   address: Outerbanks
+  
+# - name: Folk's Cafe
+#   website: http://folkscafe.com/
+#   address: Wilmington
+  
+# - name: Carolina Coffee Co
+#   website: https://carolinacoffeecompany.com/
+#   address: Wilmington

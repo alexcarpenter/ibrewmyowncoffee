@@ -1,0 +1,206 @@
+/* ==========================================================================
+   Sections
+   ========================================================================== */
+
+
+.Section {
+	padding: $base-spacing-unit $half-spacing-unit;
+}
+
+.Section__container {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1000px;
+	z-index: 10;
+}
+
+.Section__title {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: $base-spacing-unit;
+	max-width: 700px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 30px;
+	color: #222;
+}
+
+.Section__heading {
+	font-size: 35px;
+	font-family: $f__serif;
+	font-weight: 800;
+
+	span {
+		padding-right: 1rem;
+		border-right: 1px dotted #ddd;
+	}
+
+	a {
+		padding-left: 1rem;
+		font-size: 14px;
+		font-family: $f__sans-serif;
+		font-weight: 600;
+		text-transform: uppercase;
+		vertical-align: middle;
+		color: blue;
+	}
+}
+
+
+/* Custom section styles */
+
+.Section--tips {
+
+	strong {
+		display: block;
+	}
+}
+
+.Section--testimonial {
+	padding-top: $base-spacing-unit * 2;
+	padding-bottom: $base-spacing-unit * 1.5;
+	position: relative;
+	// background: url('/uploads/backgrounds/errin-vasquez.jpg') center center no-repeat;
+	// background-size: cover;
+	background: #b5b8bb;
+	text-align: center;
+
+	@media screen and (max-width: 500px) {
+		padding-top: $base-spacing-unit;
+		padding-bottom: $base-spacing-unit;
+	}
+
+	p {
+		color: #fff;
+	}
+
+	a {
+		font-weight: 600;
+		color: #fff;
+		border-bottom: 1px solid #fff;
+	}
+}
+
+.Section--newsletter {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: #111;
+}
+
+.Quote__testimonial {
+	margin-bottom: .75rem;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1.4;
+	color: #fff;
+
+	@media screen and (max-width: 800px) {
+		font-size: 30px;
+	}
+
+	@media screen and (max-width: 500px) {
+		font-size: 20px;
+	}
+}
+
+.Quote__cite {
+	font-family: $f__sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+// .heart {
+// 	padding: 25px 0;
+// 	background: blue;
+// 	display: block;
+// 	position: relative;
+// 	overflow: hidden;
+// }
+
+// .scroller {
+// 	margin: 0;
+// 	padding: 0;
+// 	list-style: none;
+// 	width: 8000%;
+// 	float: left;
+
+// 	li {
+// 		margin-right: 50px;
+// 		display: block;
+// 		float: left;
+// 		width: auto;
+// 	}
+
+// 	p {
+// 		font-family: $f__sans-serif;
+// 		font-weight: 600;
+// 		color: #fff;
+// 	}
+// }
+
+// .scroller p {
+// 	display: block;
+// 	float: left;
+// 	font-family: $f__sans-serif;
+// 	width: 300px;
+// 	margin-right: 1em;
+// 	// white-space: nowrap;
+// 	// overflow: hidden;
+// 	// text-overflow: ellipsis;
+// 	color: #fff;
+// }
+
+
+
+// Roaster page
+
+.Section--roasters {
+	position: relative;
+	padding-top: 107px;
+
+	.Search-wrap {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		margin-bottom: $base-spacing-unit;
+		padding: 0 $half-spacing-unit;
+		background: #f8f8f8;
+		border-bottom: 1px solid #cdcdcd;
+		z-index: 100;
+	}
+
+	.Search-wrap--fixed {
+		position: fixed;
+		top: 60px;
+		left: 0;
+		right: 0;
+		z-index: 100;
+	}
+
+	input.search {
+		display: block;
+		width: 100%;
+		max-width: 1000px;
+		padding: 12px 0;
+		margin: 0 auto;
+		background: #f8f8f8;
+		border: none;
+		outline: none;
+		font-size: 24px;
+		font-family: $f__sans-serif;
+		color: #222;
+	}
+
+	.list {
+		list-style: none;
+		padding-left: 0;
+		margin-top: 0;
+	}
+
+	strong a {
+		margin-right: 6px;
+		font-size: 12px;
+		color: #222;
+	}
+}

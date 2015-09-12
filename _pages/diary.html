@@ -1,0 +1,28 @@
+---
+layout: custom
+title: Coffee diary
+permalink: /diary/
+---
+
+<section class="Section Section--diary">
+	<div class="Section__wrap">
+		<table> 
+			<thead> 
+				<tr> 
+					<th>Coffee</th> 
+					<th>Roaster</th> 
+					<th>Region</th> 
+				</tr> 
+			</thead> 
+			<tbody>
+				{% for coffee in site.data.diary.coffees %}
+				<tr> 
+					<td>{{ coffee.name }}</td> 
+					<td>{{ coffee.roaster }}</td> 
+					<td>{{ coffee.region }}</td> 
+				</tr>
+				{% endfor %}
+			</tbody> 
+		</table>
+	</div>
+</section>

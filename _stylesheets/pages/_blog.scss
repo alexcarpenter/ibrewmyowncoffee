@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Blog styles
+   ========================================================================== */
+
+
+.Ad {
+	position: relative;
+	margin-top: 1.5rem;
+	max-width: 317px;
+	width: 100%;
+	background: #222;
+
+	&:hover img {
+		opacity: .5;
+	}
+
+	span {
+		display: inline-block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: #fff;
+		border: 3px solid #222;
+		z-index: 100;
+		font-size: 1rem;
+		font-weight: 600;
+		width: 80px;
+		height: 80px;
+		padding-top: 24px;
+		border-radius: 60%;
+		text-align: center;
+	}
+
+	img {
+		vertical-align: top;
+		transition: opacity ease-in-out 0.2s;
+	}
+}
+

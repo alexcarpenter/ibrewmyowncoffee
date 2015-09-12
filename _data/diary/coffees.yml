@@ -1,0 +1,52 @@
+- name: Burundi Mardadi
+  roaster: Populace Coffee
+  region: Kayanza
+
+- name: Ethiopia Kochere
+  roaster: Compelling &amp; Rich
+  region: Ethiopia
+
+- name: Yirgacheffe Konga
+  roaster: Trystero Coffee
+  region: Ethiopia
+
+- name: Six One Six
+  roaster: Madcap Coffee
+  region: Costa Rica/Colombia
+  link: https://madcapcoffee.com/buy/coffee/six-one-six
+
+- name: Costa Rica
+  roaster: Red Rock Roasters
+  region: Central America
+  link: http://www.redrockroasters.com/product/single-origins/costa-rica/
+
+- name: Los Guayabales
+  roaster: DT Coffee Club
+  region: Huehuetenango
+  link: https://dtcoffeeclub.com/shop/los-guayabales/
+
+- name: Luis Reinoso
+  roaster: Madcap Coffee
+  region: Herrera, Tolima
+  link: https://madcapcoffee.com/buy/coffee/luis
+
+- name: Hologram
+  roaster: Counter Culture
+  region: Peru/Ethiopia
+  link: https://counterculturecoffee.com/store/coffee/hologram
+
+- name: Carmen Estate
+  roaster: Kuma Coffee
+  region: Panama
+
+- name: Las Brumas
+  roaster: Trystero Coffee
+  region: Nicaragua
+
+- name: Las Cinco - Caturra
+  roaster: Populace Coffee
+  region: Nanegal, Pichincha 
+
+- name: Ethiopia Yirgacheffe
+  roaster: Blue Bottle Coffee
+  region: Bedhatu Jibicho Ethiopia

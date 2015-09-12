@@ -1,0 +1,19 @@
+- name: Tightvac Coffeevac 1lb
+  description:
+  price: $14.99
+  link: http://amzn.to/1Aok1i3
+
+- name: Acme Cups
+  description:
+  price: $12.99
+  link: http://www.pomeroys.co.nz/collections/acme-cups
+
+- name: Hario Bamboo Paddle
+  description: 
+  price: $5.99
+  link: http://amzn.to/1wDMEHY
+
+- name: Klean Kanteen Travel Mug
+  description: 
+  price: $20
+  link: http://amzn.to/1AXzQ36

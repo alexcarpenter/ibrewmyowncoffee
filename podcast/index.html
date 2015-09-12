@@ -1,0 +1,91 @@
+---
+layout: default
+title: Podcast
+permalink: /podcast/
+---
+
+<header class="Header Header--archives">
+	<div class="Header__wrap">
+		<h1>Episode Archives</h1>
+	</div>
+</header>
+
+<section class="Section">
+	<div class="Section__wrap">
+		<ul class="List">
+		{% for episode in site.categories.podcast %}
+			<li>
+				<h2><a href="{{ episode.url }}">{{ episode.title }}</a></h2>
+				<!-- <p>{{ episode.excerpt }}</p> -->
+				<p><small>Posted on {{ episode.date | date: "%D" }}</small></p>
+			</li>
+		{% endfor %}
+		</ul>
+	</div>
+</section>
+
+<!-- <header class="Banner Banner--entry">
+	<div class="Banner__container">
+		<h1 class="Banner__title Banner__title--medium">The podcast for people who care about coffee.</h1>
+		<p>Subscribe via <a href="https://itunes.apple.com/us/podcast/i-brew-my-own-coffee-podcast/id936711968?mt=2">iTunes</a> <a href="http://www.stitcher.com/podcast/i-brew-my-own-coffee-podcast">Stitcher</a> or <a href="http://simplecast.fm/podcasts/293/rss">RSS</a>.</p>
+	</div>
+</header>
+
+<div class="Page__content">
+	<div class="Grid Grid--withGutter">
+		<div class="Grid-cell u-size2of3 p-size1of1">
+			<h3 class="u-bottomBordered">Latest Episodes</h3>
+			<ul class="List List--latest">
+				{% for episode in site.categories.podcast %}
+				<li>
+					<h3><a href="{{ episode.url }}">{{ episode.title }}</a></h3>
+					<p>
+						<small>Posted on {{ episode.date | date_to_string }}</small><br>{{ episode.excerpt | strip_html }}</p>
+					</p>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="Grid-cell u-size1of3 p-size1of1">
+			<h3 class="u-bottomBordered">iTunes Review</h3>
+			<ul class="List List--latest">
+				<li>
+					<p class="Rating">&#x2605; &#x2605; &#x2605; &#x2605; &#x2605;</p>
+					<blockquote class="small-quote">
+						<p><span>&ldquo;</span>A great resource for those interested in specialty coffee, and in a medium that is approachable, enjoyable and engaging. Brew a cup and tune in.<span>&rdquo;</span></p>
+						<footer>
+							<p><strong>by bbeyk</strong></p>
+						</footer>
+					</blockquote>
+				</li>
+
+				<li>
+					<p class="Rating">&#x2605; &#x2605; &#x2605; &#x2605; &#x2605;</p>
+					<blockquote class="small-quote">
+						<p><span>&ldquo;</span>As a new coffee drinker this podcast has become a valuable resource. I learn something new in just about every episode and it has opened up a new window into the coffee tasting world.<span>&rdquo;</span></p>
+						<footer>
+							<p><strong>by Sirius Subscriber</strong></p>
+						</footer>
+					</blockquote>
+				</li>
+
+				<li>
+					<p class="Rating">&#x2605; &#x2605; &#x2605; &#x2605;</p>
+					<blockquote class="small-quote">
+						<p><span>&ldquo;</span>I have been listening to dozens of podcasts the last few years. This is the first show about coffee that I honestly enjoy.<span>&rdquo;</span></p>
+						<footer>
+							<p><strong>by DaringMacalope</strong></p>
+						</footer>
+					</blockquote>
+				</li>
+
+				<li>
+					<a href="https://itunes.apple.com/us/podcast/i-brew-my-own-coffee-podcast/id936711968?mt=2" class="Button Button--full Button--shadowRight">Leave A Review &rarr;</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+ -->

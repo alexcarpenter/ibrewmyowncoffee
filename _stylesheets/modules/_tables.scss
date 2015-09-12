@@ -1,0 +1,26 @@
+/* ==========================================================================
+   Table styles
+   ========================================================================== */
+
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 1rem;
+	font-family: $f__sans-serif;
+}
+
+thead th {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+th, td {
+	padding: $half-spacing-unit / 2 0;
+	text-align: left;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+tbody tr:nth-child(odd) {
+	// background: #fff;
+}

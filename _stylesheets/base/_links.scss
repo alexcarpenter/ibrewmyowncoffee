@@ -1,0 +1,16 @@
+/* ==========================================================================
+	Links
+	http://developers.whatwg.org/links.html
+   ========================================================================== */
+
+
+a {
+	text-decoration: none;
+	color: #222;
+
+	&:active,
+    &:hover {
+		outline: 0;
+		text-decoration: line-through;
+    }
+}

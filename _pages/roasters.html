@@ -1,0 +1,618 @@
+---
+layout: default
+title: US Coffee Roasters
+excerpt: A list of US specialty coffee roasters by I Brew My Own Coffee.
+permalink: /roasters/
+---
+
+<header class="Header Header--roasters">
+	<div class="Header__wrap">
+		<h1>US Coffee Roasters</h1>
+		<p>Submit coffee roasters <a href="https://ibrewmyowncoffee.typeform.com/to/XC5uzH">here</a>.</p>
+	</div>
+</header>
+
+<section class="Section Section--roasters" id="roasters">
+	<!-- <input type="text" class="search" placeholder="Search by state" autofocus /> -->
+	<ul class="List List--roasters">
+		<li>
+			<h2 class="name">Alabama</h2>
+			<div class="Grid Grid--withGutter">
+			{% for roaster in site.data.roasters.alabama %}
+				<div class="Grid-cell u-size1of3 t-size1of2">
+					<p>
+						<strong>{{ roaster.name }}</strong><br>
+						<em>{{ roaster.address }}</em><br>
+						<strong>
+							{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+							{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+							{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+							{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+						</strong>
+					</p>
+				</div>
+			{% endfor %}
+			</div>	
+		</li>
+
+		<li>
+			<h2 class="name">Alaska</h2>
+			<div class="Grid Grid--withGutter">
+			{% for roaster in site.data.roasters.alaska %}
+				<div class="Grid-cell u-size1of3 t-size1of2">
+					<p>
+						<strong>{{ roaster.name }}</strong><br>
+						<em>{{ roaster.address }}</em><br>
+						<strong>
+							{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+							{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+							{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+							{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+						</strong>
+					</p>
+				</div>
+			{% endfor %}
+			</div>
+		</li>
+
+		<li>
+			<h2 class="name">Arizona</h2>
+			<div class="Grid Grid--withGutter">
+			{% for roaster in site.data.roasters.arizona %}
+				<div class="Grid-cell u-size1of3 t-size1of2">
+					<p>
+						<strong>{{ roaster.name }}</strong><br>
+						<em>{{ roaster.address }}</em><br>
+						<strong>
+							{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+							{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+							{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+							{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+						</strong>
+					</p>
+				</div>
+			{% endfor %}
+			</div>
+		</li>
+
+		<li>
+			<h2 class="name">Arkansas</h2>
+			<div class="Grid Grid--withGutter">
+			{% for roaster in site.data.roasters.arkansas %}
+				<div class="Grid-cell u-size1of3 t-size1of2">
+					<p>
+						<strong>{{ roaster.name }}</strong><br>
+						<em>{{ roaster.address }}</em><br>
+						<strong>
+							{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+							{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+							{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+							{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+						</strong>
+					</p>
+				</div>
+			{% endfor %}
+			</div>
+		</li>
+
+		<li>
+			<h2 class="name">California</h2>
+			<div class="Grid Grid--withGutter">
+			{% for roaster in site.data.roasters.california %}
+				<div class="Grid-cell u-size1of3 t-size1of2">
+					<p>
+						<strong>{{ roaster.name }}</strong><br>
+						<em>{{ roaster.address }}</em><br>
+						<strong>
+							{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+							{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+							{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+							{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+						</strong>
+					</p>
+				</div>
+			{% endfor %}
+			</div>
+		</li>
+
+		<li>
+			<h2 class="name">Colorado</h2>
+			<div class="Grid Grid--withGutter">
+			{% for roaster in site.data.roasters.colorado %}
+				<div class="Grid-cell u-size1of3 t-size1of2">
+					<p>
+						<strong>{{ roaster.name }}</strong><br>
+						<em>{{ roaster.address }}</em><br>
+						<strong>
+							{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+							{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+							{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+							{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+						</strong>
+					</p>
+				</div>
+			{% endfor %}
+			</div>
+		</li>
+
+		<li>
+			<h2 class="name">Florida</h2>
+			<div class="Grid Grid--withGutter">
+			{% for roaster in site.data.roasters.florida %}
+				<div class="Grid-cell u-size1of3 t-size1of2">
+					<p>
+						<strong>{{ roaster.name }}</strong><br>
+						<em>{{ roaster.address }}</em><br>
+						<strong>
+							{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+							{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+							{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+							{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+						</strong>
+					</p>
+				</div>
+			{% endfor %}
+			</div>
+		</li>
+
+		<li id="georgia">
+			<h2 class="name">Georgia</h2>
+			<div class="Grid Grid--withGutter">
+			{% for roaster in site.data.roasters.georgia %}
+				<div class="Grid-cell u-size1of3 t-size1of2">
+					<p>
+						<strong>{{ roaster.name }}</strong><br>
+						<em>{{ roaster.address }}</em><br>
+						<strong>
+							{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+							{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+							{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+							{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+						</strong>
+					</p>
+				</div>
+			{% endfor %}
+			</div>
+		</li>
+
+		<li>
+			<h2 class="name">Illinois</h2>
+			<div class="Grid Grid--withGutter">
+			{% for roaster in site.data.roasters.illinois %}
+				<div class="Grid-cell u-size1of3 t-size1of2">
+					<p>
+						<strong>{{ roaster.name }}</strong><br>
+						<em>{{ roaster.address }}</em><br>
+						<strong>
+							{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+							{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+							{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+							{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+						</strong>
+					</p>
+				</div>
+			{% endfor %}
+			</div>
+		</li>
+
+		<li>
+			<h2 class="name">Indiana</h2>
+			<div class="Grid Grid--withGutter">
+			{% for roaster in site.data.roasters.indiana %}
+				<div class="Grid-cell u-size1of3 t-size1of2">
+					<p>
+						<strong>{{ roaster.name }}</strong><br>
+						<em>{{ roaster.address }}</em><br>
+						<strong>
+							{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+							{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+							{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+							{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+						</strong>
+					</p>
+				</div>
+			{% endfor %}
+			</div>
+		</li>
+
+		<li>
+			<h2 class="name">Kansas</h2>
+			<div class="Grid Grid--withGutter">
+			{% for roaster in site.data.roasters.kansas %}
+				<div class="Grid-cell u-size1of3 t-size1of2">
+					<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Massachusetts</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.massachusetts %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Michigan</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.michigan %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Minnesota</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.minnesota %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Missouri</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.missouri %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Montana</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.montana %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Nebraska</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.nebraska %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">New Jersey</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.newjersey %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">New York</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.newyork %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">North Carolina</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.northcarolina %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Ohio</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.ohio %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Oklahoma</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.oklahoma %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Oregon</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.oregon %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Pennsylvania</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.pennsylvania %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Tennessee</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.tennessee %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Texas</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.texas %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Virginia</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.virginia %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Washington</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.washington %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Wisconsin</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.wisconsin %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+
+			<li>
+				<h2 class="name">Wyoming</h2>
+				<div class="Grid Grid--withGutter">
+				{% for roaster in site.data.roasters.wyoming %}
+					<div class="Grid-cell u-size1of3 t-size1of2">
+						<p>
+							<strong>{{ roaster.name }}</strong><br>
+							<em>{{ roaster.address }}</em><br>
+							<strong>
+								{% if roaster.website %}<a href="{{ roaster.website }}"><i class="ss-social ss-link"></i></a>{% endif %}
+								{% if roaster.facebook %}<a href="https://www.facebook.com/{{ roaster.facebook }}"><i class="ss-social ss-facebook"></i></a>{% endif %}
+								{% if roaster.instagram %}<a href="http://instagram.com/{{ roaster.instagram }}"><i class="ss-social ss-instagram"></i></a>{% endif %}
+								{% if roaster.twitter %}<a href="https://twitter.com/{{ roaster.twitter }}"><i class="ss-social ss-twitter"></i></a>{% endif %}
+							</strong>
+						</p>
+					</div>
+				{% endfor %}
+				</div>
+			</li>
+		</ul>
+</section>

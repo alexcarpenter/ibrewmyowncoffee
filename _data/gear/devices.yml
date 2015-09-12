@@ -1,0 +1,39 @@
+- name: Aeropress
+  description:
+  price: $25.99
+  link: http://amzn.to/1GAPtiU
+
+- name: Chemex
+  description:
+  price: $32
+  link: http://amzn.to/1AVi9Rz
+
+- name: French Press
+  description:
+  price: $35.41
+  link: http://amzn.to/1N3veib
+
+- name: Kalita Wave
+  description:
+  price: $28.50
+  link: http://amzn.to/1E3gD2e
+
+- name: Bialetti Moka Pot
+  description:
+  price: $34.93
+  link: http://amzn.to/17GuajA
+
+- name: Gino Dripper
+  description:
+  price: $24
+  link: http://www.notneutral.com/gino-glass-dripper
+
+- name: V60
+  description:
+  price: $16.49
+  link: http://amzn.to/1GAQabZ
+
+- name: Clever
+  description: 
+  price: $22
+  link: http://amzn.to/1CJN7ic

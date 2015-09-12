@@ -1,0 +1,142 @@
+---
+layout: default
+title: Coffee Gear Guide
+excerpt: Coffee brewing gear guide by I Brew My Own Coffee.
+permalink: /gear/
+---
+
+<header class="Header Header--archives">
+	<div class="Header__wrap">
+		<h1>Coffee brewing gear.</h1>
+		<p>Just a few of our favorites.</p>
+	</div>
+</header>
+
+<section class="Section Section--gear">
+	<div class="Section__wrap">
+		<ul class="List List--gear">
+			<li>
+				<h2 class="name">Brewing Devices</h2>
+				<div class="Flex-grid">
+					{% for device in site.data.gear.devices %}
+					<div class="Flex-grid__cell">
+						<p>
+							<strong>{{ device.name }}</strong><br>
+							<em>{{ device.description }}</em>
+						</p>
+						<p class="Price"><a href="{{ device.link }}" class="Button"><span>{{ device.price }}</span> Purchase</a></p>
+					</div>
+					{% endfor %}
+				</div>	
+			</li>
+
+			<li>
+				<h2 class="name">Filters</h2>
+				<div class="Flex-grid">
+					{% for filter in site.data.gear.filters %}
+					<div class="Flex-grid__cell">
+						<p>
+							<strong>{{ filter.name }}</strong><br>
+							<em>{{ filter.description }}</em>
+						</p>
+						<p class="Price"><a href="{{ filter.link }}" class="Button"><span>{{ filter.price }}</span> Purchase</a></p>
+					</div>
+					{% endfor %}
+				</div>	
+			</li>
+
+			<li>
+				<h2 class="name">Grinders</h2>
+				<div class="Flex-grid">
+					{% for grinder in site.data.gear.grinders %}
+					<div class="Flex-grid__cell">
+						<p>
+							<strong>{{ grinder.name }}</strong><br>
+							<em>{{ grinder.description }}</em>
+						</p>
+						<p class="Price"><a href="{{ grinder.link }}" class="Button"><span>{{ grinder.price }}</span> Purchase</a></p>
+					</div>
+					{% endfor %}
+				</div>	
+			</li>
+		</ul>
+	</div>
+</section>
+
+<section class="Section Section--gray">
+	<div class="Section__wrap">
+		<h2>Featured Gear</h2>
+
+		<div class="Grid Grid--withGutter">
+			<div class="Grid-cell u-size1of2 t-size1of1">
+				<img src="/uploads/gear/kalita.jpg" alt="Kalita Wave 185" style="border: 1px solid #dfdfdf;">
+			</div>
+
+			<div class="Grid-cell u-size1of2 t-size1of1">
+				<p class="u-sans-serif"><strong>Kalita Wave 185</strong></p>
+				<p>The Kalita Wave has proven to be one of our favorite brewing devices in our arsenal, extremely durable and easy to use.</p>
+				<p>We find it to produce a perfect balance between the cleanliness of a Chemex and the bold flavors an Aeropress offers.</p>
+				<p class="Price"><a href="http://amzn.to/1E3gD2e" class="Button"><span>$28.50</span> Purchase</a></p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="Section Section--gear">
+	<div class="Section__wrap">
+		<ul class="List List--gear">
+			<li>
+				<h2 class="name">Kettles</h2>
+				<div class="Flex-grid">
+					{% for kettle in site.data.gear.kettles %}
+					<div class="Flex-grid__cell">
+						<p>
+							<strong>{{ kettle.name }}</strong><br>
+							<em>{{ kettle.description }}</em>
+						</p>
+						<p class="Price"><a href="{{ kettle.link }}" class="Button"><span>{{ kettle.price }}</span> Purchase</a></p>
+					</div>
+					{% endfor %}
+				</div>	
+			</li>
+
+			<li>
+				<h2 class="name">Scales</h2>
+				<div class="Flex-grid">
+					{% for scale in site.data.gear.scales %}
+					<div class="Flex-grid__cell">
+						<p>
+							<strong>{{ scale.name }}</strong><br>
+							<em>{{ scale.description }}</em>
+						</p>
+						<p class="Price"><a href="{{ scale.link }}" class="Button"><span>{{ scale.price }}</span> Purchase</a></p>
+					</div>
+					{% endfor %}
+				</div>	
+			</li>
+
+			<li>
+				<h2 class="name">Miscellaneous</h2>
+				<div class="Flex-grid">
+					{% for thing in site.data.gear.miscellaneous %}
+					<div class="Flex-grid__cell">
+						<p>
+							<strong>{{ thing.name }}</strong><br>
+							<em>{{ thing.description }}</em>
+						</p>
+						<p class="Price"><a href="{{ thing.link }}" class="Button"><span>{{ thing.price }}</span> Purchase</a></p>
+					</div>
+					{% endfor %}
+				</div>	
+			</li>
+		</ul>
+	</div>
+</section>
+
+<section class="Section Section--affiliate">
+	<div class="Section__wrap">
+		<h2>Affiliate Link Disclosure</h2>
+		
+		<p class="Columns">Most of the links on this page are Amazon Affiliate Links. Which means if you purchase any piece of gear from a link from this page we get a small kickback from Amazon. The price of the gear is no different to you. This helps us keep the lights on here and another way for you to help support this site. If you need to get an order of new filters for your Chemex or Aeropress, purchase them through the link on this page and you can help us out a little bit. We appreciate you greatly.</p>
+	</div>
+</section>

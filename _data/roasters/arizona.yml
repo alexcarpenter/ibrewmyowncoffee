@@ -1,0 +1,40 @@
+- name: Savaya coffee
+  address: 5350 E Broadway Blvd., Tucson, AZ 85711
+  website: http://savayacoffee.com/
+  facebook: SavayaCoffeeMarket
+  instagram: savayacoffee
+  twitter: savayacoffee
+
+- name: Altitude Coffee Lab
+  address: 8320 N Hayden Rd 107, Scottsdale, AZ 85258
+  website: http://altitudecoffeelab.com/
+  facebook: Altitudecoffeelab
+  twitter: altituderoast
+
+- name: Exo Roast
+  address: 403 N 6th Ave Tucson, AZ 85705
+  website: http://exocoffee.com/
+  facebook: ExoCoffee
+  twitter: exoroastco
+
+- name: Nom de Plume Roasters
+  address: PO Box 169, Phoenix, AZ
+  website: http://nomdeplumeroasters.com/
+  facebook: nomdeplumeroast
+  instagram: nomdeplumeroast
+  twitter: NomDePlumeRoast
+
+- name: Provision Coffee
+  address: 260 S Arizona Ave, Chandler, AZ
+  website: http://provisioncoffee.com/
+  facebook: ProvisionCoffee
+  instagram: provisioncoffee
+  twitter: provisioncoffee
+
+- name: Catel Coffee Lab
+  address: 225 W. University Dr, Tempe AZ 85281
+  website: http://cartelcoffeelab.com/
+  facebook: CartelCoffeeLab
+  instagram: cartel
+  twitter: cartelcoffeelab
+  

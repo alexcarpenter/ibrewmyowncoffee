@@ -1,0 +1,20 @@
+/* ==========================================================================
+   Basic styles
+   ========================================================================== */
+
+
+hr {
+	margin: $half-spacing-unit 0;
+	width: 100%;
+	height: 3px;
+	background: #222;
+	border: none;
+}
+
+hr.break-sm {
+	margin: $half-spacing-unit 0;
+	width: 100px;
+	height: 3px;
+	background: #222;
+	border: none;
+}

@@ -1,0 +1,132 @@
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
+
+
+.Navigation {
+	position: fixed; 
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 60px;
+	padding: 0 $half-spacing-unit;
+	// border-bottom: 3px solid #111;
+	z-index: 1000;
+	transition: background ease-in-out 0.15s;
+	// background: #fff;
+
+	display: flex;
+	align-items: center;
+
+	p {
+		margin: 0px;
+	}
+
+	.u-leftBordered {
+		border-left: 1px solid rgba(#fff, .35);
+		padding-left: 20px;
+	}
+
+	a {
+		margin-right: 20px;
+		font-family: $f__sans-serif;
+		font-size: 14px;
+		color: #fff;
+		text-transform: uppercase;
+		text-rendering: optimizeLegibility;
+		font-weight: 600;
+		transition: color ease-in-out 0.15s;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	i {
+		vertical-align: middle;
+	}
+
+	.Navigation__logo {
+		position: absolute;
+		top: -17px;
+		left: 0;
+		bottom: 0;
+		width: 60px;
+		height: 57px;
+		background: url('/uploads/main-logo.png') center center no-repeat;
+		background-size: 60px;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		transition: background ease-in-out .15s;
+	}
+
+	@media screen and (max-width: 800px) {
+		.t-hidden {
+			display: none;
+		}
+	}
+
+	.menu-link {
+		display: inline-block;
+		margin-top: -5px;
+		font-size: 20px;
+		vertical-align: middle;
+
+		@media screen and (min-width: 800px) {
+			display: none;
+		}
+	}
+}
+
+.Navigation--fill {
+	background: #111;
+
+	a {
+		color: #fff;
+	}
+}
+
+.Navigation__container {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 100%;
+	padding-left: 80px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+/* Mobile nav styles */
+
+.panel {
+    position: fixed;
+    left: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+    padding-top: 61px;
+    background: #111;
+
+    ul {
+    	margin: 0;
+    	padding: 0;
+    	list-style: none;
+    }
+
+    li {
+    	border-bottom: 1px solid #555555;
+    }
+
+    a {
+    	display: block;
+    	padding: 8px $half-spacing-unit / 2;
+    	color: #fff;
+    }
+}
+
+.wrap {
+	position: relative;
+}

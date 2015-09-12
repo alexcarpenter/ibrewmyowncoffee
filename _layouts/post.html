@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<header class="Header Header--general">
+	<h1>{{ page.title }}</h1>
+</header>
+
+<article class="Article">
+	<div class="Article__content">
+		{% if page.hero %}
+		<figure class="Article__hero">
+			<img src="{{ page.hero }}" alt="">
+		</figure>
+		{% endif %}
+
+		{% if page.excerpt %}
+		<h2 class="Article__excerpt">{{ page.excerpt }}</h2>
+		{% endif %}
+		
+		{{ content }}
+	</div>
+</article>
+
+<section class="Section Section--supportPost">
+	<div class="Section__wrap">
+		<h2>Support I Brew My Own Coffee</h2>
+
+		<div class="Grid Grid--withGutter">
+			<div class="Grid-cell u-size1of2 t-size1of1">
+				<h3><a href="https://www.patreon.com/ibrewmyowncoffee">Patreon Supporter</a></h3>
+				<p>Have you enjoyed the podcast? Help us keep it ad free and listener supported on Patreon. Sign up to help with any amount you can. Even get entered to win monthly giveaways.</p>
+			</div>
+
+			<div class="Grid-cell u-size1of2 t-size1of1">
+				<h3><a href="https://itunes.apple.com/us/podcast/i-brew-my-own-coffee-podcast/id936711968?mt=2">iTunes Review</a></h3>
+				<p>Another great way to help support I Brew My Own Coffee is to leave a review and rating for the podcast on iTunes. It helps us grow the show and share our passion with coffee with others.</p>
+			</div>
+		</div>
+	</div>
+</section>

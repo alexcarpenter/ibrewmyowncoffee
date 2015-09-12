@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+
+.Footer {
+	padding: $base-spacing-unit $half-spacing-unit;
+	background: #111;
+}
+
+.Footer__container {
+	@include clearfix;
+	margin: 0 auto;
+	max-width: 1000px;
+
+	h3 {
+		color: #fff;
+	}
+
+	p {
+		color: #fff;
+		font-weight: 400;
+		font-family: $f__sans-serif;
+	}
+
+	a {
+		color: #fff;
+	}
+}
+
+.Footer__topLink {
+	float: left;
+}
+
+.Footer__copy {
+	float: right;
+}

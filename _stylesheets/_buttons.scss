@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Button styles
+   ========================================================================== */
+
+.Button {
+	position: relative;
+	display: block;
+	padding: 12px 12px 12px 65px;
+	text-align: center;
+	font-family: $f__sans-serif;
+	font-weight: 600;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: $gold;
+
+	span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		padding: 12px;
+		display: block;
+		border-right: 1px solid #ddd;
+		color: #222;
+
+		&:after {
+			content: '';
+			position: absolute;
+			margin: auto;
+			top: 0;
+			right: -6px;
+			bottom: 0;
+			width: 10px;
+			height: 10px;
+			background: #fff;
+			border-top: 1px solid #ddd;
+			border-right: 1px solid #ddd;
+			transform: rotate(45deg);
+		}
+	}
+}

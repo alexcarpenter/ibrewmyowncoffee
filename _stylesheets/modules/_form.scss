@@ -1,0 +1,62 @@
+/* ==========================================================================
+   Form styles
+   ========================================================================== */
+
+
+form {
+	display: block;
+	width: 100%;
+
+	input {
+		padding: 10px;
+		width: 100%;
+		font-size: 1rem;
+		font-family: $f__sans-serif;
+		border: none;
+		border: 3px solid #111;
+	}
+
+	input[type="email"] {
+		margin-bottom: 6px;
+	}
+
+	input[type="submit"] {
+		position: relative;
+		background: #111;
+		color: #fff;
+		transition: background ease-in-out 0.2s;
+		text-transform: uppercase;
+		font-weight: 600;
+
+		// &:hover {
+		// 	background: blue;
+		// }
+	}
+}
+
+.Submit-wrap {
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		top: 5px;
+		right: -5px;
+		bottom: -5px;
+		left: 5px;
+		background: blue;
+		z-index: -1;
+	}
+}
+
+#mc_embed_signup div.mce_inline_error {
+	font-family: $f__sans-serif;
+	margin-top: 6px!important;
+	font-size: 16px;
+}
+
+#mce-success-response {
+	font-family: $f__sans-serif;
+	margin-top: 6px!important;
+	font-size: 16px;
+}
