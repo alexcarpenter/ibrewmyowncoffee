@@ -12,7 +12,7 @@
 		<meta property="og:title"
 		content="The podcast for people who care about coffee, hosted by Alex Carpenter." />
 		{% endif %}
-		<meta property="og:site_name" content="I Brew My Own Coffee Podcast"/>	
+		<meta property="og:site_name" content="I Brew My Own Coffee Podcast"/>
 		{% if page.url %}
 		<meta property="og:url"
 		content="{{ site.url }}{{ page.url }}" />
@@ -32,10 +32,10 @@
 
 		<meta name="robots" content="index, follow, archive, noodp, noydir" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		
+
 		{% include typekit.html %}
 		<link rel="shortcut icon" href="/favicon.png">
-		<link rel="stylesheet" href="/css/global.css">
+		<link rel="stylesheet" href="{{ "/css/global.css" | prepend: site.baseurl }}">
 		<link rel="stylesheet" href="/webfonts/ss-social-regular.css">
 
 		<script>
@@ -51,13 +51,13 @@
 	<body>
 		<main>
 			{% include nav.html %}
-			
+
 			{{ content }}
 
 			{% include footer.html %}
 		</main>
 
-		<!-- <a href="#cd-nav" class="cd-nav-trigger">Menu 
+		<!-- <a href="#cd-nav" class="cd-nav-trigger">Menu
 			<span class="cd-nav-icon"></span>
 
 			<svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
