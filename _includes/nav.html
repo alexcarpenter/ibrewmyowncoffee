@@ -2,17 +2,15 @@
 	<div class="Navigation__wrap">
 		<p>
 			<a href="/">Home</a>
-			<a href="/podcast/">Episodes</a>
-			<a href="/about/">About</a>
+			<a href="{{ "/podcast/" | prepend: site.baseurl }}">Episodes</a>
+			<a href="{{ "/about/" | prepend: site.baseurl }}">About</a>
 			<a href="mailto:ibrewmyowncoffee@gmail.com" class="u-borderRight">Contact</a>
 
-			<a href="/roasters/" class="m-hidden">Roasters</a>
-			<a href="/gear/" class="m-hidden">Gear</a>
+			<a href="{{ "/roasters/" | prepend: site.baseurl }}" class="m-hidden">Roasters</a>
+			<a href="{{ "/gear/" | prepend: site.baseurl }}" class="m-hidden">Gear</a>
 		</p>
 
 		<p class="m-hidden">
-			<!-- <a href="/roasters/">Roasters</a> -->
-			<!-- <a href="/gear/">Gear</a> -->
 			<a href="https://twitter.com/brewmyowncoffee"><i class="ss-social ss-twitter"></i></a> <a href="https://instagram.com/ibrewmyowncoffee/"><i class="ss-social ss-instagram"></i></a> <a href="https://www.facebook.com/ibrewmyowncoffee"><i class="ss-social ss-facebook"></i></a>
 		</p>
 	</div>
